@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a{
+    text-decoration:none ;
+}
+h3{
+    color: #fff;
+    padding-top: 15px;
+}
+.navbar{
+display: flex;
+position: sticky;
+top: 0;
+background:#333;
+justify-content: space-between;
+color: #333;
+z-index: 1;
+padding: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li{
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+}
+.navbar .social{
+    justify-self: center;
+}
+.navbar .social i {
+    color: #fff;
+    padding-top: 1rem;
+}
+.navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0.25rem;
+}
+.navbar ul li a:hover{
+    background:#fff;
+    color: #333;
+    border-radius: 20px;
+}
+.navbar ul li i{
+    color: #fff;
+}
+.navbar ul li ul {
+    display:none;}
+.navbar ul li:hover ul {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 180px;
+        margin-top: 1rem;
+      
+    }
+.navbar ul li:hover ul li {
+    display: block;
+    background:#fff;
+    color:#333;}
+
+.navbar ul li:hover ul li a {
+ color: #333;}
+ .navbar ul li:hover ul li:hover{
+    background:#333;
+    color: #fff;
+ }
+.navbar ul li:hover ul li:hover a{
+           background: #333;
+            color:#fff;
+}
+.navbar ul li:hover ul li span{
+    float: right;
+    color: #fff;
+    background-color: #333;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+.navbar ul li:hover ul li:hover span {
+    background:#fff;
+    color: #333;
+}
+.video{
+    padding-top:4rem;
+}
+#showcase{
+    background:#333 url(./img/background.jpg)no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding: 0 2rem;
+    position:absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0 , 0 , 0 , 0.3) ;
+}
+
+
+
+#showcase-ghoste{
+    background:#333 url(./img/tvtChi1h.jpg)no-repeat center center/cover;
+    height: 80vh;
+    color: #fff;
+  
+    z-index: -1;
+   
+}
+#showcase-ghoste .showcase-content-ghoste{
+  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background:rgba(0 , 0 , 0 , 0.3) ;
+    
+   
+}
+#showcase-ghoste .showcase-content-ghoste a{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+#showcase-ghoste .showcase-content-ghoste a:hover{
+   color: #444;
+}
+#showcase-witchy{
+    background:#333 url(./img/witch.jpg)no-repeat center center/cover;
+    color: #fff;
+    height: 75vh;
+    z-index: -1;
+   
+}
+#showcase-witchy .showcase-content-witchy{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background:rgba(0 , 0 , 0 , 0.3) ;
+    
+   
+}
+
+#showcase-witchy .showcase-content-witchy a{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+#showcase-witchy .showcase-content-witchy a:hover{
+   color: #444;
+}
+#showcase-dredd{
+    background:#333 url(./img/dredd.jpg)no-repeat center center/cover;
+    color: #fff;
+    height: 75vh;
+    z-index: -1;
+   
+}
+#showcase-dredd .showcase-content-dredd{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background:rgba(0 , 0 , 0 , 0.3) ;
+    
+   
+}
+
+#showcase-dredd .showcase-content-dredd a{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+#showcase-dredd .showcase-content-dredd a:hover{
+   color: #444;
+}
+#showcase-snot{
+    background:#333 url(./img/snot.jpg)no-repeat center center/cover;
+    color: #fff;
+    height: 75vh;
+    z-index: -1;
+   
+}
+#showcase-snot .showcase-content-snot{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background:rgba(0 , 0 , 0 , 0.3) ;
+    
+   
+}
+
+#showcase-snot .showcase-content-snot a{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+#showcase-snot .showcase-content-snot a:hover{
+   color: #444;
+}
+.about-p{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+}
+.about-p .p{
+    margin: 1rem;
+    background: #333;
+    
+}
+.btn{
+    display: inline-block;
+    color: #333;
+    background: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    
+}
